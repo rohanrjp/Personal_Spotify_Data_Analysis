@@ -7,7 +7,7 @@ import seaborn as sns
 import plotly.graph_objects as go
 
 # Folder path where all JSON files are located
-folder_path = 'https://github.com/rohanrjp/Personal_Spotify_Data_Analysis/blob/main/data/merged_spotify_data.csv'
+folder_path = 'https://raw.githubusercontent.com/rohanrjp/Personal_Spotify_Data_Analysis/refs/heads/main/data/merged_spotify_data.csv'
 
 raw_data=load_data(folder_path)
 
